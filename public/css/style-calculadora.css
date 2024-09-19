@@ -1,0 +1,41 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background-image: url("../images/fondo.jpg");
+background-size: cover;
+}
+.titulo{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.titulo h2{
+    font-size: 50px
+}
+#numero1 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 250px;
+}
+#numero2 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 250px;
+}
+#operacion{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 250px;
+}
+#calcular{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    width: 30%;
+    height: 10%;
+}

@@ -1,0 +1,15 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("../images/fondo3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sesion {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    background-color: white;
+    color: black;
+}

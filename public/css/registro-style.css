@@ -1,0 +1,17 @@
+.html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("../images/fondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    top: -5%;
+    left: 10%;
+}
+#btn-registro{
+    position: absolute;
+    left: 10%;
+}
