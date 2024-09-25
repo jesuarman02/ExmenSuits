@@ -23,12 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             "email" => $email,
             "password" => $password
         ];
-
         echo json_encode([1, "Registro exitoso. Redirigiendo al inicio de sesión."]);
     } else {
         echo json_encode([0, "Error en el registro. Verifica los campos."]);
     }
-} else {
-    echo json_encode([0, "Método no permitido."]);
-}
+} 
 ?>
