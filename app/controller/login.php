@@ -1,7 +1,6 @@
 <?php
     session_start();
     
-    // Comentar esta parte si no es necesaria
     /*if (isset($_SESSION['usuario'])){
         header("location:index.php");
         exit();
